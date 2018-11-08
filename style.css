@@ -88,6 +88,27 @@ h4{
     margin-right:100%;
 
   }
+
+    .leaflet-bar.leaflet-control.leaflet-control-custom.btncustom{
+        text-indent: -9999px;
+        background: url("./capture2.PNG");
+        white-space: nowrap;
+        width: 35px;
+        height: 35px;
+        box-shadow: none;
+
+    }
+
+
+
+
+    .geojson-list.leaflet-control{
+        height: 300px !important;
+        width: 125px !important;
+        overflow-x:visible;
+
+    }
+
 }
 
 /* For large devices (e.g. desktops) */
