@@ -1,0 +1,98 @@
+body { margin:0; padding:0; }
+
+#mapid { position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    border-top:5px;
+    border-bottom:5px;
+    border-left:5px;
+    border-right:5px;
+    border-style:solid;
+    border-color:#FFC627;
+}
+
+.info { padding: 0px 0px;
+    font: 12px/13px Arial, Helvetica, sans-serif;
+
+    background:white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border-style: solid;
+    border-color:rgba(255,198,39,0.8);
+    border-width: 10px;
+}
+
+h4{
+    color: rgba(107,101,101,0.8);
+}
+
+
+
+.hide{
+    visibility: hidden;
+}
+
+
+
+
+/*.leaflet-control-zoom.leaflet-bar.leaflet-control{*/
+    /*margin-bottom:90% ;*/
+/*}*/
+.leaflet-bar.leaflet-control.leaflet-control-custom.btncustom{
+    width: 194px;
+    height: 50px;
+    left: -9px;
+    top: -6px;
+    background: url("./capture1.PNG");
+}
+
+.leaflet-bar.leaflet-control.leaflet-control-custom.btncustomstyle{
+    box-shadow: 5px 5px 5px #ffd152;
+}
+.geojson-list.leaflet-control{
+    height: 779px;
+    max-width: 795px;
+}
+
+
+@media only screen and (max-width: 500px)
+{
+    .leaflet-bar.leaflet-control.leaflet-control-custom.btncustom{
+        text-indent: -9999px;
+        background: url("./capture2.PNG");
+        white-space: nowrap;
+        width: 35px;
+        height: 35px;
+        box-shadow: none;
+
+    }
+
+
+}
+
+.leaflet-container .geojson-list
+{
+    margin-left: 1% !important ;
+}
+
+
+
+/*LOGOSSSS CATEDRAS*/
+
+/* For medium devices (e.g. tablets) */
+@media (max-width: 500px) {
+  img.resp {
+    max-width: 50%;
+    margin-right:100%;
+
+  }
+}
+
+/* For large devices (e.g. desktops) */
+@media (min-width: 760px) {
+  img.resp {
+    max-width: 100%;
+  }
+}
